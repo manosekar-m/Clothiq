@@ -102,9 +102,14 @@ The application will be running at `http://localhost:5173`.
 
 ## 👑 Admin Access
 
-To access the admin dashboard, create an account and manually set the `role` to `admin` directly in your MongoDB database, or use the default seeded admin account if available.
+To access the admin dashboard, you can use the default seeded admin account:
 
-Navigate to `/admin` to access the control panel.
+- **Email:** `admin@clothiq.com`
+- **Password:** `admin123`
+
+Alternatively, you can create a new account and manually change the `role` field to `admin` directly in your MongoDB database.
+
+Navigate to `http://localhost:5173/admin` to access the control panel.
 
 ---
 
